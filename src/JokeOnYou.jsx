@@ -1,7 +1,7 @@
 import './App.css';
 import Jokes from './Components/Jokes';
 
-function App() {
+function JokeOnYou() {
   return (
     <div className="App">
       <header className="App-header">
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default JokeOnYou;

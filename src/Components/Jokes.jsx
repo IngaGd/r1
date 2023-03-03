@@ -10,9 +10,9 @@ function Jokes() {
   }, []);
 
   return (
-    <ol className='list'>
+    <ul className='list'>
       {joke.map((j, i) => <li className="list" key={i}><span>Joke {i + 1}:</span> {j.joke}{j.setup} {j.delivery} </li>)}
-    </ol>
+    </ul>
   );
 }
 export default Jokes;
